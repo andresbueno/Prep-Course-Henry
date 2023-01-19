@@ -28,8 +28,9 @@ function incrementarPorUno(array) {
   // Tu código:
   var newArray = [];
   for(var i = 0; i<array.length; i++){
-    var valorPosicion = array[i] + 1;
-    newArray.push(valorPosicion);
+    newArray.push(array[i] + 1);
+    // var valorPosicion = array[i] + 1;
+    // newArray.push(valorPosicion);
   }
   return newArray;
 }
